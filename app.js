@@ -792,7 +792,7 @@ function sendReadReceipt(recipientId) {
  *
  */
 function sendTypingOn(recipientId) {
-  console.log("Turning typing indicator on");
+  console.log("Turning typing indicator on ");
 
   var messageData = {
     recipient: {
